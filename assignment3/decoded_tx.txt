@@ -1,0 +1,52 @@
+Command used:
+./bitcoin-cli -regtest decoderawtransaction "0200000000010131811cd355c357e0e01437d9bcf690df824e9ff785012b6115dfae3d8e8b36c10100000000fdffffff0220a107000000000016001485d78eb795bd9c8a21afefc8b6fdaedf718368094c08100000000000160014840ab165c9c2555d4a31b9208ad806f89d2535e20247304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01210260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff43030e00"
+
+Decoded transaction output:
+{
+  "txid": "04f487fe9754a925c2e96492afeab47e7c839d0582eef80b3ecc9ca3afa05842",
+  "hash": "091294831c9019d4f1dc4f3c0e282cc2591a2c42d0059358a23ba03d01cbb4cc",
+  "version": 2,
+  "size": 222,
+  "vsize": 141,
+  "weight": 561,
+  "locktime": 918339,
+  "vin": [
+    {
+      "txid": "c1368b8e3daedf15612b0185f79f4e82df90f6bcd93714e0e057c355d31c8131",
+      "vout": 1,
+      "scriptSig": {
+        "asm": "",
+        "hex": ""
+      },
+      "txinwitness": [
+        "304402207bce86d430b58bb6b79e8c1bbecdf67a530eff3bc61581a1399e0b28a741c0ee0220303d5ce926c60bf15577f2e407f28a2ef8fe8453abd4048b716e97dbb1e3a85c01",
+        "0260828bc77486a55e3bc6032ccbeda915d9494eda17b4a54dbe3b24506d40e4ff"
+      ],
+      "sequence": 4294967293
+    }
+  ],
+  "vout": [
+    {
+      "value": 0.00500000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "0 85d78eb795bd9c8a21afefc8b6fdaedf71836809",
+        "desc": "addr(bcrt1qshtcadu4hkwg5gd0alytdldwmaccx6qfl2tkfx)#q2rz3pme",
+        "hex": "001485d78eb795bd9c8a21afefc8b6fdaedf71836809",
+        "address": "bcrt1qshtcadu4hkwg5gd0alytdldwmaccx6qfl2tkfx",
+        "type": "witness_v0_keyhash"
+      }
+    },
+    {
+      "value": 0.01050700,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "0 840ab165c9c2555d4a31b9208ad806f89d2535e2",
+        "desc": "addr(bcrt1qss9tzewfcf246j33hysg4kqxlzwj2d0zm6vnf4)#x0lp4p87",
+        "hex": "0014840ab165c9c2555d4a31b9208ad806f89d2535e2",
+        "address": "bcrt1qss9tzewfcf246j33hysg4kqxlzwj2d0zm6vnf4",
+        "type": "witness_v0_keyhash"
+      }
+    }
+  ]
+}
